@@ -4,11 +4,34 @@
 
 ---
 
-## ✨Features
+## Built with:
+- Java 17+
+
+- Collections Framework (Queue, Set)
+
+- LocalDateTime for timestamps
+
+- Custom exceptions
+
+--- 
+
+## Motivation
+
+I built this project to deepen my understanding of:
+
+- Collections (Queue for entry flow, Set for unique license plates).
+
+- CRUD logic in a realistic, everyday scenarios.
+
+- Exceptions and management error flow.
+
+---
+
+## Features
 
 - Park a car and check if parking is full or the car is already parked.
 
--  Show parking status of occupied spots, available spots, and car details.
+- Show parking status of occupied spots, available spots, and car details.
 
 - Search cars by license plate or brand.
 
@@ -22,7 +45,7 @@
 
 ---
 
-## 📌 Example Output
+### 📌 Example Output
 
 ``` java
 Parking successful. Car Plate: XMQ 234 added successfully
@@ -38,14 +61,6 @@ Parked cars:
 
 ---
 
-## 🛠️ Key Components
-
-- Queue and Set collections
-
-- LocalDateTime for entry timestamps
-
-- Custom exceptions (ParkingFullException, CarAlreadyParked, CarNotFound)
-
 ### 📌 Usage Example
 
 ```java
@@ -59,3 +74,7 @@ parking.containsCar("XMQ 234");
 parking.removeCar("XMQ 234");
 ```
 ---
+
+### Future Improvements
+
+- Persistence: save/load cars to a file or database.
